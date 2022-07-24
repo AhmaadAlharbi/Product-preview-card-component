@@ -15,46 +15,48 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Simple Tailwind Starter 1</title>
   </head>
-  <body class="">
+  <body>
     <!-- background container -->
-    <div class="flex items-center justify-center bg-cream">
+    <div class="flex items-center justify-center h-screen bg-cream">
       <!-- card container -->
-      <div class="pb-20 mt-12">
+      <div class="mt-12 px-5">
         <!--flex container-->
-        <div
-          class="container max-w-sm w-full flex flex-col md:flex-row shadow-lg"
-        >
+        <div class="container mx-auto flex flex-col md:flex-row">
           <!--image desktop-->
           <img
-            class="hidden md:block object-fit rounded-xl"
+            class="hidden md:flex w-72 rounded-l-xl"
             src="images/image-product-desktop.jpg"
             alt=""
           />
           <!--image mobile-->
           <img
-            class="md:hidden rounded-t-3xl"
+            class="md:hidden object-contain rounded-t-3xl"
             src="images/image-product-mobile.jpg"
             alt=""
           />
-          <div class="px-4 bg-white py-10 rounded-b-2xl">
-            <h5 class="uppercase tracking-wide my-4">perfume</h5>
+          <div class="px-4 bg-white md:w-1/2 rounded-r-xl">
+            <h5 class="uppercase tracking-widest my-4">perfume</h5>
             <h1 class="text-3xl font-bold font-['Fraunces']">
-              Gabrielle Essence <br />
-              Eau De parfum
+              Gabrielle<br />
+              Essence Eau<br />
+              De Parfum
             </h1>
-            <p class="text-gray-600 my-4 font-['Montserrat']">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-              Praesentium molestiae libero doloremque eligendi illum,<br />
-              necessitatibus maiores eveniet. Magni, incidunt fugiat?
+            <p class="text-gray-600 text-base my-4 font-['Montserrat']">
+              A floral,Solar and voluptuous<br />
+              interpretation composed by<br />
+              Oliver Polge,Perfumer-Creator<br />
+              for the House of CHANEL
             </p>
-            <div class="flex items-center">
-              <h1 class="text-3xl text-darkCyan font-bold">$149.99</h1>
+            <div class="flex items-center my-6">
+              <h1 class="text-3xl text-darkCyan font-bold font-['Fraunces']">
+                $149.99
+              </h1>
               <span class="ml-4 line-through text-darkGrayishBlue"
                 >$169.99</span
               >
             </div>
             <button
-              class="bg-darkCyan flex items-center text-white mx-auto px-24 py-2 rounded-lg my-3 font-bold text-center"
+              class="bg-darkCyan flex items-center text-white mx-auto px-10 py-2 rounded-lg my-3 font-bold text-center"
             >
               <img class="mr-3" src="images/icon-cart.svg" alt="" />
               Add to Cart
