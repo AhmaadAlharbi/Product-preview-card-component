@@ -1116,6 +1116,11 @@ video {
   border-radius: 0.75rem;
 }
 
+.hover\:bg-veryDarkBlue:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 21% 14% / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:block {
     display: block;
